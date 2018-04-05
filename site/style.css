@@ -1,0 +1,31 @@
+h1 {
+	font-size: 20px;
+	color: red;
+}
+
+p {
+	font-size: 12px;
+	color: brown;
+}
+/*
+.nav-bar {
+	height: 30px;
+	width: 75px;
+	flex-grow: 1; 
+}
+*/
+body {
+	background-color: yellow;
+	background-image: url("profile.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+
+}
