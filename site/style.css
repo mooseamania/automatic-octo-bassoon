@@ -7,13 +7,13 @@ p {
 	font-size: 12px;
 	color: brown;
 }
-/*
+
 .nav-bar {
 	height: 30px;
 	width: 75px;
-	flex-grow: 1; 
+	background-color: blue;
 }
-*/
+
 body {
 	background-color: yellow;
 	background-image: url("profile.png");
@@ -28,4 +28,10 @@ body {
 	justify-content: space-around;
 	align-content: center;
 
+}
+
+.foot-bar {
+	height: 30px;
+	width: 75px;
+	background-color: red;
 }
