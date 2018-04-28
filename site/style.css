@@ -85,3 +85,15 @@ aside {
 a {
 	text-decoration: none;
 }
+.left-panel {
+	height: 400px;
+	width: 400px;
+	background-color: purple;
+	display: none;
+}
+.right-panel {
+	height: 400px;
+	width: 400px;
+	background-color: orange;
+	display: none;
+}
