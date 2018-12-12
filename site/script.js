@@ -15,12 +15,24 @@ $(document).ready(function(){
         $(this).css("background-color", "#7a7a7a");
     });
 
-// SLIDE SCRIPT
+// HIDE/SHOW SCRIPT
 
     $(".right-block").click(function(){
-        $(".right-panel").slideDown("slow");
+        $(".right-panel").show();
     });
     $(".left-block").click(function(){
-        $(".left-panel").slideDown("slow");
+        $(".left-panel").show();
     });
 });
+
+// SLIDE SCRIPT
+
+    $(".first-button").click(function(){
+        $(".second").slideDown("slow");
+    });
+    $(".second-button").click(function(){
+        $(".third").slideDown("slow");
+    });
+    $(".third-button").click(function(){
+    $(".fourth").slideDown("slow");
+    });

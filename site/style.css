@@ -1,10 +1,10 @@
 h1 {
-	font-size: 80px;
-	color: white;
+	font-size: 30px;
+	color: blue;
 }
 
 p {
-	font-size: 12px;
+	font-size: 20px;
 	color: brown;
 }
 
@@ -18,12 +18,16 @@ body {
 	background-color: black;
 }
 
+.personal-body {
+	background-image: url("personal-pic.jpg");
+}
+
 .left-block {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 950px;
-	height: 875px;
+	width: 850px;
+	height: 600px;
 	background-color: #3a3a3a;
 }
 
@@ -31,8 +35,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 950px;
-	height: 875px;
+	width: 850px;
+	height: 600px;
 	background-color: #7a7a7a;
 }
 
@@ -86,14 +90,26 @@ a {
 	text-decoration: none;
 }
 .left-panel {
-	height: 400px;
-	width: 400px;
-	background-color: purple;
 	display: none;
+	flex-direction: column;
+	align-items: center;
 }
+
 .right-panel {
-	height: 400px;
-	width: 400px;
-	background-color: orange;
+	display: none;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.first-button {
+	background-color: yellow;
+}
+
+.first {
+	background-color: white;
+}
+.second {
+	background-color: grey;
 	display: none;
 }
